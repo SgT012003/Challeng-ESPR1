@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --main-color: #212121;
+    --title-color: #F9F9F9;
+    --background-color: #333333;
+    --text-color: #828282;
+    --primary-color: #0C356A;
+    --secondary-color: #0174BE;
+
+    --white: #ffffff;
+    --dark: #000000;
+}
+
+/* Nav-Bar */
+
+/* end Nav-Bar */
