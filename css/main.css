@@ -1,1 +1,7 @@
 @import './root.css';
+
+.Title-Image {
+    display: flex;
+    width: 100%;
+}
+

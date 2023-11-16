@@ -1,5 +1,5 @@
 var element = document.querySelector('.nav-section')
-element.innerHTML = `<nav class="nav-bar">
+let Nav_innerHTML = `<nav class="nav-bar">
 <div class="img-logo">
     <img src="./img/logo.png" alt="Logo do Institudo da Criança do Hospital das Clinicas" class="logo">
 </div>
@@ -22,4 +22,6 @@ element.innerHTML = `<nav class="nav-bar">
         Sobre - Nós
     </button>
 </div>
-</nav>`
+</nav>`;
+
+element.innerHTML = Nav_innerHTML;

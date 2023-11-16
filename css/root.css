@@ -11,10 +11,11 @@
 body {
     background-color: var(--background-color);
 }
+
 :root {
-    --main-color: #212121;
+    --main-color: #333333;
     --title-color: #F9F9F9;
-    --background-color: #333333;
+    --background-color: #212121;
     --text-color: #828282;
     --primary-color: #0C356A;
     --secondary-color: #0174BE;
