@@ -85,6 +85,7 @@ h2{
     font-size: 1.2rem;
     color: rgba(12,53,106,1);
     width: 60%;
+    text-align: justify;
     padding: 2rem;
 }
 
