@@ -55,14 +55,14 @@ header section{
 
 h1{
     color: #fff;
-    font-family: 'Rubik';
+    font-family: 'Rubik', Arial;
     font-size: 2.5rem;
     padding: 3.6rem;
 }
 
 h2{
     color: rgba(12,53,106,1);
-    font-family: 'Rubik';
+    font-family: 'Rubik', Arial;
     font-size: 2.5rem;
     padding: 4rem;
 }
