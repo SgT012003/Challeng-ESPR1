@@ -1,27 +1,10 @@
-var element = document.querySelector('.nav-section')
-let Nav_innerHTML = `<nav class="nav-bar">
-<div class="img-logo">
-    <img src="./img/logo.png" alt="Logo do Institudo da Criança do Hospital das Clinicas" class="logo">
-</div>
-<div class="links">
-    <a href="" class="nav-link">
-        Home
-    </a>
-    <a href="" class="nav-link">
-        Storytelling 
-    </a>
-    <a href="" class="nav-link">
-        Software  Design
-    </a>
-    <a href="" class="nav-link">
-        Conceito
-    </a>
-</div>
-<div class="about">
-    <button class="btn-about">
-        About
-    </button>
-</div>
-</nav>`;
+var element = document.querySelector('.nav')
+let Nav_innerHTML = `<img src="./img/logo.png" alt="logo">
+            <ul>
+                <li><a href="./index.html">Entrada</a></li>
+                <li><a href="./solucao.html">Solução</a></li>
+                <li><a href="./sobrenos.html">Sobre Nos</a></li>
+                <li><a href="./adicional.html">Adicionais</a></li>
+            </ul>`;
 
 element.innerHTML = Nav_innerHTML;
