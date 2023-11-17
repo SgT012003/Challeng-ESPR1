@@ -2,7 +2,7 @@
 
 @font-face {
     font-family:"Rubik" ;
-    src: url('/static/Rubik-Regular.ttf');
+    src: url('/fonts/static/Rubik-Regular.ttf');
 }
 
 header{
@@ -64,7 +64,8 @@ h2{
     color: rgba(12,53,106,1);
     font-family: 'Rubik', Arial;
     font-size: 2.5rem;
-    padding: 4rem;
+    padding: 3rem 0 3rem 4rem ;
+    width:100%;
 }
 
 #problem{
@@ -72,13 +73,13 @@ h2{
     flex-wrap: wrap
 }
 
-
 .yellowg{
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,196,54,1) 100%);
 }
 .blueg{
     background: linear-gradient(90deg, rgba(12,53,106,1) 0%, rgba(1,116,190,1) 100%);
 }
+
 
 .content {
     font-family: 'Rubik', 'Arial';
