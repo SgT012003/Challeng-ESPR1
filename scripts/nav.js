@@ -5,21 +5,21 @@ let Nav_innerHTML = `<nav class="nav-bar">
 </div>
 <div class="links">
     <a href="" class="nav-link">
-        Pagina Principal
+        Home
     </a>
     <a href="" class="nav-link">
-        Storytelling Inspiração Emprendedora
+        Storytelling 
     </a>
     <a href="" class="nav-link">
-        Software and Total Experience Design
+        Software  Design
     </a>
     <a href="" class="nav-link">
-        Prova de Conceito
+        Conceito
     </a>
 </div>
 <div class="about">
     <button class="btn-about">
-        Sobre - Nós
+        About
     </button>
 </div>
 </nav>`;

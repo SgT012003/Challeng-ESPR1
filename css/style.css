@@ -1,5 +1,102 @@
 @import './root.css';
 
+@font-face {
+    font-family:"Rubik" ;
+    src: url('/fonts/Rubik-VariableFont_wght.ttf');
+}
+
+header{
+    background: linear-gradient(90deg, rgba(12,53,106,1) 0%, rgba(1,116,190,1) 100%);
+    padding: 3rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF0CE;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1rem;
+    padding: 0.5rem 5rem 0.5rem 0;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    list-style: none;
+    font-family: 'Rubik';
+
+    
+}
+
+header nav img{
+    width: 5rem;
+}
+
+header nav ul li :hover{
+    color: rgba(1,116,190,1) ;
+}
+
+header section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+h1{
+    color: #fff;
+    font-family: 'Rubik';
+    font-size: 2.5rem;
+    padding: 3.6rem;
+}
+
+h2{
+    color: rgba(12,53,106,1);
+    font-family: 'Rubik';
+    font-size: 2.5rem;
+    padding: 4rem;
+}
+
+#problem{
+    display: flex;
+    flex-wrap: wrap
+}
+
+
+.yellowg{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,196,54,1) 100%);
+}
+.blueg{
+    background: linear-gradient(90deg, rgba(12,53,106,1) 0%, rgba(1,116,190,1) 100%);
+}
+
+.content {
+    font-family: 'Rubik', 'Arial';
+    font-size: 1.2rem;
+    color: rgba(12,53,106,1);
+    width: 60%;
+    padding: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .Title-Content {
     width: 100%;
     display: flex;
@@ -19,8 +116,9 @@
 }
 
 .Title {
+    font-family: 'Rubik',Arial;
     padding: 0.5em;
-    font-size: 2.2em;
+    font-size: 2.5rem;
     font-weight: bold;
     border-left: 2px solid #fff;
     color: var(--title-color);
@@ -28,10 +126,12 @@
 
 .Content-Left {
     width: 50%;
+    border-radius: 2rem;
 }
 
 .Content-Right {
     width: 50%;
+    border-radius: 2rem;
 }
 
 .Content-Right>.div-Title>.Title{
@@ -39,6 +139,7 @@
 }
 
 .div-Content {
+    background-color: white;
     padding: 3em 0 1.5em 0;
     margin: 0 0 1em 0;
     position: relative;
@@ -48,15 +149,7 @@
     justify-content: center;
     width: 80%;
     border-bottom: 1px solid #fff;
-}
-
-.Content {
-    position: relative;
-    left: 20%;
-    width: 60%;
-    text-align: justify;
-    margin: 0.5em;
-    color: var(--text-color);
+    border-radius: 2rem;
 }
 
 .div-Stacks
