@@ -73,13 +73,9 @@ h2{
     flex-wrap: wrap
 }
 
-.yellowg{
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,196,54,1) 100%);
+#video-frame{
+    width: 60%;
 }
-.blueg{
-    background: linear-gradient(90deg, rgba(12,53,106,1) 0%, rgba(1,116,190,1) 100%);
-}
-
 
 .content {
     font-family: 'Rubik', 'Arial';
@@ -90,7 +86,12 @@ h2{
     padding: 2rem;
 }
 
-
+.yellowg{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,196,54,1) 100%);
+}
+.blueg{
+    background: linear-gradient(90deg, rgba(12,53,106,1) 0%, rgba(1,116,190,1) 100%);
+}
 
 
 
