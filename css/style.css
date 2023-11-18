@@ -25,7 +25,7 @@ header nav ul {
     justify-content: flex-end;
     gap: 1.5rem;
     list-style: none;
-    font-family: 'Rubik';
+    font-family: 'Rubik',sans-serif;
 }
 
 a {
@@ -81,13 +81,13 @@ header section {
 
 h1 {
     color: #fff;
-    font-family: 'Rubik', Arial;
+    font-family: 'Rubik', sans-serif;
     font-size: 2.5rem;
     padding: 0 3rem 0 0;
 }
 
 h2 {
-    font-family: 'Rubik', Arial;
+    font-family: 'Rubik', sans-serif;
     font-size: 2.5rem;
     padding: 3rem 0 0 4rem;
     width: 95%;
@@ -141,7 +141,7 @@ h2 {
 }
 
 .content {
-    font-family: 'Rubik', 'Arial';
+    font-family: 'Rubik', sans-serif;
     font-size: 1.2rem;
     width: 60%;
     text-align: justify;
@@ -169,7 +169,7 @@ h2 {
     width: 90%;
 }
 .content-sted {
-    font-family: 'Rubik', 'Arial';
+    font-family: 'Rubik', sans-serif;
     font-size: 1.2rem;
     width: 90%;
     text-align: justify;

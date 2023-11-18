@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
-    font-family: 'Rubik';
+    font-family: 'Rubik',sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -32,7 +32,6 @@ body {
     background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 :root {
