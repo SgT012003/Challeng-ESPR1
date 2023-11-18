@@ -61,7 +61,6 @@ h1 {
 }
 
 h2 {
-    color: rgba(12, 53, 106, 1);
     font-family: 'Rubik', Arial;
     font-size: 2.5rem;
     padding: 3rem 0 0 4rem;
@@ -69,6 +68,14 @@ h2 {
 }
 
 #problem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+#motivation {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,21 +91,34 @@ h2 {
 display: flex;
 }
 
+#objective{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+}
+
 .content {
     font-family: 'Rubik', 'Arial';
     font-size: 1.2rem;
-    color: rgba(12, 53, 106, 1);
     width: 60%;
     text-align: justify;
-    padding: 2.5rem;
+    padding: 4rem;
+    text-indent: 4rem;
 }
 
-.yellowg {
+.yellow-gradien {
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 196, 54, 1) 100%);
+    color: rgba(12, 53, 106, 1);
 }
 
-.blueg {
+.blue-gradien {
     background: linear-gradient(90deg, rgba(12, 53, 106, 1) 0%, rgba(1, 116, 190, 1) 100%);
+    color: rgb(255, 255, 255) ;
 }
 
 
