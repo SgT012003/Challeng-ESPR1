@@ -1,12 +1,12 @@
 @import './root.css';
 
 @font-face {
-    font-family:"Rubik" ;
+    font-family: "Rubik";
     src: url('/fonts/static/Rubik-Regular.ttf');
 }
 
-header{
-    background: linear-gradient(90deg, rgba(12,53,106,1) 0%, rgba(1,116,190,1) 100%);
+header {
+    background: linear-gradient(90deg, rgba(12, 53, 106, 1) 0%, rgba(1, 116, 190, 1) 100%);
     padding: 3rem;
 }
 
@@ -20,7 +20,7 @@ header nav {
     padding: 0.5rem 5rem 0.5rem 0;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
     justify-content: flex-end;
     gap: 1.5rem;
@@ -38,59 +38,74 @@ a:hover {
     color: var(--primary-color)
 }
 
-header nav img{
+header nav img {
     width: 5rem;
 }
 
-header nav ul li :hover{
-    color: rgba(1,116,190,1) ;
+header nav ul li :hover {
+    color: rgba(1, 116, 190, 1);
 }
 
-header section{
+header section {
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 }
 
-h1{
+h1 {
     color: #fff;
     font-family: 'Rubik', Arial;
     font-size: 2.5rem;
     padding: 3.6rem;
 }
 
-h2{
-    color: rgba(12,53,106,1);
+h2 {
+    color: rgba(12, 53, 106, 1);
     font-family: 'Rubik', Arial;
     font-size: 2.5rem;
-    padding: 3rem 0 3rem 4rem ;
-    width:100%;
+    padding: 3rem 0 3rem 4rem;
+    width: 100%;
 }
 
-#problem{
+#problem {
     display: flex;
     flex-wrap: wrap
 }
 
-#video-frame{
+#video{
+    display: flex;
+    align-items: center;
+}
+
+#video-frame {
+    position: relative;
     width: 60%;
+    height: auto;
+    padding: 5rem;
+    box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+    margin-top: 1.6em;
+    margin-bottom: 0.9em;
+    overflow: hidden;
+    border-radius: 8px;
+    will-change: transform;
 }
 
 .content {
     font-family: 'Rubik', 'Arial';
     font-size: 1.2rem;
-    color: rgba(12,53,106,1);
+    color: rgba(12, 53, 106, 1);
     width: 60%;
     text-align: justify;
     padding: 2rem;
 }
 
-.yellowg{
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,196,54,1) 100%);
+.yellowg {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 196, 54, 1) 100%);
 }
-.blueg{
-    background: linear-gradient(90deg, rgba(12,53,106,1) 0%, rgba(1,116,190,1) 100%);
+
+.blueg {
+    background: linear-gradient(90deg, rgba(12, 53, 106, 1) 0%, rgba(1, 116, 190, 1) 100%);
 }
 
 
@@ -120,14 +135,14 @@ h2{
 }
 
 .div-Title {
-    margin: 0 0 2em 1em ;
+    margin: 0 0 2em 1em;
     display: flex;
     justify-content: left;
     align-items: center;
 }
 
 .Title {
-    font-family: 'Rubik',Arial;
+    font-family: 'Rubik', Arial;
     padding: 0.5em;
     font-size: 2.5rem;
     font-weight: bold;
@@ -145,7 +160,7 @@ h2{
     border-radius: 2rem;
 }
 
-.Content-Right>.div-Title>.Title{
+.Content-Right>.div-Title>.Title {
     border-left: 0;
 }
 
@@ -163,8 +178,7 @@ h2{
     border-radius: 2rem;
 }
 
-.div-Stacks
-{
+.div-Stacks {
     display: flex;
     justify-content: space-around;
 }
@@ -179,6 +193,7 @@ h2{
     justify-content: center;
     color: var(--text-color);
 }
+
 .Line {
     position: relative;
     width: 80%;
