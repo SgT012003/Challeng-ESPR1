@@ -64,31 +64,24 @@ h2 {
     color: rgba(12, 53, 106, 1);
     font-family: 'Rubik', Arial;
     font-size: 2.5rem;
-    padding: 3rem 0 3rem 4rem;
-    width: 100%;
+    padding: 3rem 0 0 4rem;
+    width: 95%;
 }
 
 #problem {
     display: flex;
-    flex-wrap: wrap
+    flex-direction: column;
+    align-items: center;
+
 }
 
 #video{
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 #video-frame {
-    position: relative;
-    width: 60%;
-    height: auto;
-    padding: 5rem;
-    box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
-    margin-top: 1.6em;
-    margin-bottom: 0.9em;
-    overflow: hidden;
-    border-radius: 8px;
-    will-change: transform;
+display: flex;
 }
 
 .content {
@@ -97,7 +90,7 @@ h2 {
     color: rgba(12, 53, 106, 1);
     width: 60%;
     text-align: justify;
-    padding: 2rem;
+    padding: 2.5rem;
 }
 
 .yellowg {
