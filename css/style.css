@@ -127,11 +127,30 @@ h2 {
     flex-direction: column;
 }
 
-
-
 #pros-cons {
     display: flex;
     flex-direction: column;
+}
+
+#form-insert{
+    background-color: #fff;
+    display: flex;
+    border-radius: 2rem;
+    flex-direction: column;
+    width: 40%;
+    padding: 4rem;
+    margin: 3rem;
+}
+
+#form-insert input{
+    border-radius: 1rem;
+    padding: .2rem;
+
+}
+
+#form-insert select{
+    border-radius: 1rem;
+    padding: .2rem;
 }
 
 .container {
@@ -143,10 +162,22 @@ h2 {
 .content {
     font-family: 'Rubik', sans-serif;
     font-size: 1.2rem;
-    width: 60%;
     text-align: justify;
     padding: 4rem;
     text-indent: 4rem;
+}
+
+.img-ani{
+    animation-name: bobble;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.img-ani2{
+    animation-name: bobble;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
 }
 
 .text-list {
@@ -155,11 +186,15 @@ h2 {
     padding-bottom: 1rem;
 }
 
+.text-list li {
+    padding-bottom: 1rem;
+}
+
 .contlist {
     display: flex;
     flex-direction: column;
     padding: 2rem 0 2rem 4rem;
-    width: 40%;
+    width: 50%;
 }
 
 .contlist-sted {
@@ -207,30 +242,36 @@ h2 {
     background-color: rgba(12, 53, 106, 1);
 }
 
-.show {
+.display-none {
     display: none;
+}
+.display-flex{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 #scrlBtn:hover {
     background-color: #000000;
 }
 
+
 @keyframes bobble {
     0% {
         left: 0px;
         top: 0px;
-        transform: rotate(-1deg)
+        transform: rotate(-2deg)
     }
 
     50% {
         left: 0px;
         top: 20px;
-        transform: rotate(1deg)
+        transform: rotate(2deg)
     }
 
     100% {
         left: 0px;
         top: 0px;
-        transform: rotate(-1deg)
+        transform: rotate(-2deg)
     }
 }
