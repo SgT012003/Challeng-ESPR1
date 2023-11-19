@@ -153,6 +153,21 @@ h2 {
     padding: .2rem;
 }
 
+
+#enviar{
+    margin: 1rem;
+    padding: .5rem;
+    background-color: rgba(1, 116, 190, 1);
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+}
+
+#enviar:hover{
+    background-color: rgba(12, 53, 106, 1);
+}
+
+
 .container {
     display: flex;
     justify-content: space-evenly;
@@ -249,6 +264,11 @@ h2 {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+}
+
+.display-center{
+    display: flex;
+    justify-content: center;
 }
 
 #scrlBtn:hover {
