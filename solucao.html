@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto HC</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -23,14 +23,34 @@
                 <li><a href="./adicional.html">Adicionais</a></li>
             </ul>
         </nav>
-        <section id="home">
-            <img src="./img/med-phone.png" alt="midical aparel and phone">
+        <section id="">
+            <form id="form-insert" class="display-none">
+                <label form="nome">Nome</label>
+                <input type="text" name="nome" id="nome" />
+
+                <label for="Exame">Nome</label>
+                <select id="exames" name="exames">
+                    <option value="Exame de Sangue">Volvo</option>
+                    <option value="Resonacia Magnetica">Saab</option>
+                </select>
+
+                <label for="quantidade">Quantidade</label>
+                <input type="date" name="data" id="data" />
+
+                <button type="button" id="cadastrar" class="add-product">Cadastrar</button>
+            </form>
             <h1>
-                Coragem é a resistência ao medo, domínio do medo, e não a ausência do medo.
-                - Mark Twain
+                Bem vindo(a) ao portal HC!
+                Qual exame você irá fazer
             </h1>
         </section>
     </header>
+    <section id="exsangue-video">
+
+    </section>
+    <section id="exsangue">
+        
+    </section>
     <script src="./scripts/scroll.js"></script>
 </body>
 
