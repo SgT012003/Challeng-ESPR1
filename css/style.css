@@ -127,11 +127,30 @@ h2 {
     flex-direction: column;
 }
 
-
-
 #pros-cons {
     display: flex;
     flex-direction: column;
+}
+
+#form-insert{
+    background-color: #fff;
+    display: flex;
+    border-radius: 2rem;
+    flex-direction: column;
+    width: 40%;
+    padding: 4rem;
+    margin: 3rem;
+}
+
+#form-insert input{
+    border-radius: 1rem;
+    padding: .2rem;
+
+}
+
+#form-insert select{
+    border-radius: 1rem;
+    padding: .2rem;
 }
 
 .container {
@@ -207,7 +226,7 @@ h2 {
     background-color: rgba(12, 53, 106, 1);
 }
 
-.show {
+.display {
     display: none;
 }
 

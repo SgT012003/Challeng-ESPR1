@@ -23,21 +23,21 @@
                 <li><a href="./adicional.html">Adicionais</a></li>
             </ul>
         </nav>
-        <section id="">
-            <form id="form-insert" class="display-none">
-                <label form="nome">Nome</label>
+        <section id="form-test">
+            <form id="form-insert">
+                <label form="nome">Nome:</label>
                 <input type="text" name="nome" id="nome" />
 
-                <label for="Exame">Nome</label>
+                <label for="Exame">Exame:</label>
                 <select id="exames" name="exames">
-                    <option value="Exame de Sangue">Volvo</option>
-                    <option value="Resonacia Magnetica">Saab</option>
+                    <option value="Exame de Sangue">Exame de Sangue</option>
+                    <option value="Resonacia Magnetica">Resonacia Magnetica</option>
                 </select>
 
-                <label for="quantidade">Quantidade</label>
+                <label for="quantidade">Data do Exame:</label>
                 <input type="date" name="data" id="data" />
 
-                <button type="button" id="cadastrar" class="add-product">Cadastrar</button>
+                <button type="button" id="enviar">Enviar</button>
             </form>
             <h1>
                 Bem vindo(a) ao portal HC!
@@ -45,13 +45,14 @@
             </h1>
         </section>
     </header>
-    <section id="exsangue-video">
+    <section id="exsangue-video" class="display-none">
 
     </section>
-    <section id="exsangue">
+    <section id="exsangue" class="display-none">
         
     </section>
     <script src="./scripts/scroll.js"></script>
+    <script src="./scripts/exam-form.js"></script>
 </body>
 
 </html>
