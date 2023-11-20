@@ -65,6 +65,7 @@ header section {
     #problem,
     #motivation,
     #group,
+    header section,
     .container {
         display: flex;
         flex-direction: column;
@@ -174,13 +175,14 @@ h2 {
 #group {
     display: flex;
     width: 100%;
-
+    flex-direction:center;
 }
 
-#group img {
-    width: 40%;
+.txt{
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
 }
-
 
 .container {
     display: flex;
@@ -207,6 +209,10 @@ h2 {
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: reverse;
+}
+
+.ppl-grp{
+    width: 20rem;
 }
 
 .text-list {
