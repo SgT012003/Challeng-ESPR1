@@ -18,4 +18,5 @@ Front-end,
 Design Base, 
 Parte Criativa, 
 Idealisação, 
+Solução, 
 Organizacional
