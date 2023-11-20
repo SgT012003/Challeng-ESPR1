@@ -6,3 +6,9 @@ Diogo - RM553837:
 Entendimento do problema
 Identificação do cliente e suas dores
 Análise das dores do cliente
+
+Victor Didoff - RM552965:
+Front
+back-end
+organizacional
+gerenciamento de tempo e cobranças
