@@ -25,7 +25,7 @@ header nav ul {
     justify-content: flex-end;
     gap: 1.5rem;
     list-style: none;
-    font-family: 'Rubik',sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 a {
@@ -64,6 +64,8 @@ header section {
     #home,
     #problem,
     #motivation,
+    #group,
+    header section,
     .container {
         display: flex;
         flex-direction: column;
@@ -135,7 +137,7 @@ h2 {
     flex-direction: column;
 }
 
-#form-insert{
+#form-insert {
     background-color: #fff;
     display: flex;
     border-radius: 2rem;
@@ -145,19 +147,18 @@ h2 {
     margin: 3rem;
 }
 
-#form-insert input{
+#form-insert input {
     border-radius: 1rem;
     padding: .2rem;
 
 }
 
-#form-insert select{
+#form-insert select {
     border-radius: 1rem;
     padding: .2rem;
 }
 
-
-#enviar{
+#enviar {
     margin: 1rem;
     padding: .5rem;
     background-color: rgba(1, 116, 190, 1);
@@ -167,10 +168,21 @@ h2 {
     transition: 450ms ease-in-out;
 }
 
-#enviar:hover{
+#enviar:hover {
     background-color: rgba(12, 53, 106, 1);
 }
 
+#group {
+    display: flex;
+    width: 100%;
+    flex-direction:center;
+}
+
+.txt{
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
 
 .container {
     display: flex;
@@ -186,17 +198,21 @@ h2 {
     text-indent: 4rem;
 }
 
-.img-ani{
+.img-ani {
     animation-name: bobble;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
-.img-ani2{
+.img-ani2 {
     animation-name: bobble;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: reverse;
+}
+
+.ppl-grp{
+    width: 20rem;
 }
 
 .text-list {
@@ -232,6 +248,11 @@ h2 {
     text-indent: 4rem;
 }
 
+.group-member {
+
+    padding: 1rem;
+}
+
 .yellow-gradien {
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 196, 54, 1) 100%);
     color: rgba(12, 53, 106, 1);
@@ -264,13 +285,14 @@ h2 {
 .display-none {
     display: none;
 }
-.display-flex{
+
+.display-flex {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
 }
 
-.display-center{
+.display-center {
     display: flex;
     justify-content: center;
 }
@@ -278,7 +300,6 @@ h2 {
 #scrlBtn:hover {
     background-color: #000000;
 }
-
 
 @keyframes bobble {
     0% {
