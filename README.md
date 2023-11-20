@@ -3,19 +3,31 @@
 
  
 Diogo - RM553837:
+
 Entendimento do problema
+
 Identificação do cliente e suas dores
+
 Análise das dores do cliente
 
-Victor Didoff - RM552965
+Victor Didoff - RM552965:
+
 Front-end
+
 back-end
+
 organizacional
+
 gerenciamento de tempo e cobranças
 
-Vinicius Silva - RM553240
+Vinicius Silva - RM553240:
+
 Front-end
+
 Design Base
+
 Parte Criativa
+
 Idealisação
-organizacional
+
+Organizacional
