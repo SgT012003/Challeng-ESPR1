@@ -51,7 +51,10 @@ header section {
     justify-content: space-around;
     align-items: center;
     padding: 4rem 0;
+}
 
+.active {
+    height: 70.9vh;
 }
 
 /* responsive */
@@ -161,6 +164,7 @@ h2 {
     border: none;
     border-radius: 1rem;
     color: #fff;
+    transition: 450ms ease-in-out;
 }
 
 #enviar:hover {
