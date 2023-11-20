@@ -11,7 +11,7 @@ Análise das dores do cliente
 Front-end, 
 back-end, 
 organizacional, 
-gerenciamento de tempo e cobranças, 
+gerenciamento de tempo e cobranças 
 
 **Vinicius Silva** - RM553240:
 Front-end, 
