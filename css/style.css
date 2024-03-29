@@ -59,7 +59,7 @@ header section {
 
 /* responsive */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 920px) {
 
     #home,
     #problem,
@@ -77,6 +77,8 @@ header section {
     h2 {
         width: 90%;
         overflow: hidden;
+        padding-bottom: 1rem;
+
     }
 
     header nav ul {
