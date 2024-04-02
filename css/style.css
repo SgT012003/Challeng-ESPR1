@@ -47,35 +47,6 @@ header section {
     display: none;
   }
   
-
-/* responsive */
-
-@media screen and (max-width: 920px) {
-
-    #home,
-    #problem,
-    #motivation,
-    #group,
-    header section,
-    .container {
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
-        /* The width is 100%, when the viewport is 800px or smaller */
-    }
-
-    h2 {
-        width: auto;
-        overflow: hidden;
-        padding-bottom: 1rem;
-
-    }
-
-    header nav ul {
-        align-items: center;
-    }
-}
-
 h1 {
     font-family: 'Rubik', sans-serif;
     font-size: 2.5rem;
@@ -217,8 +188,6 @@ h2 {
 .contlist {
     display: flex;
     flex-direction: column;
-    padding: 2rem 0 2rem 4rem;
-    width: 50%;
 }
 
 .contlist-sted {
