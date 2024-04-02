@@ -1,4 +1,5 @@
 @import './root.css';
+@import './responsive.css';
 
 @font-face {
     font-family: "Rubik";
@@ -10,42 +11,6 @@ header {
     padding: 3rem;
 }
 
-header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #FFF0CE;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 1rem;
-    padding: 0.5rem 5rem 0.5rem 0;
-}
-
-header nav ul {
-    display: flex;
-    justify-content: flex-end;
-    gap: 1.5rem;
-    list-style: none;
-    font-family: 'Rubik', sans-serif;
-}
-
-a {
-    text-decoration: none;
-    color: #000;
-    transition: 450ms ease-in-out;
-}
-
-a:hover {
-    color: var(--primary-color)
-}
-
-header nav img {
-    width: 5rem;
-}
-
-header nav ul li :hover {
-    color: rgba(1, 116, 190, 1);
-}
-
 header section {
     display: flex;
     justify-content: space-around;
@@ -53,39 +18,36 @@ header section {
     padding: 4rem 0;
 }
 
-.active {
-    height: 70.9vh;
-}
-
-/* responsive */
-
-@media screen and (max-width: 800px) {
-
-    #home,
-    #problem,
-    #motivation,
-    #group,
-    header section,
-    .container {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        overflow: hidden;
-        /* The width is 100%, when the viewport is 800px or smaller */
-    }
-
-    h2 {
-        width: 90%;
-        overflow: hidden;
-    }
-
-    header nav ul {
-        align-items: center;
-    }
-}
-
+.topnav {
+    overflow: hidden;
+    background-color: #f8fa9e;
+    border-radius: 1.5rem;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    color: #0174BE;
+  }
+  
+  .topnav a.active {
+    color: #0C356A;
+    font-weight: bold;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
 h1 {
-    color: #fff;
     font-family: 'Rubik', sans-serif;
     font-size: 2.5rem;
     padding: 0 3rem 0 0;
@@ -93,9 +55,7 @@ h1 {
 
 h2 {
     font-family: 'Rubik', sans-serif;
-    font-size: 2.5rem;
     padding: 3rem 0 0 4rem;
-    width: 95%;
 
 }
 
@@ -175,10 +135,10 @@ h2 {
 #group {
     display: flex;
     width: 100%;
-    flex-direction:center;
+    flex-direction: center;
 }
 
-.txt{
+.txt {
     color: #fff;
     font-size: 2rem;
     text-align: center;
@@ -211,7 +171,7 @@ h2 {
     animation-direction: reverse;
 }
 
-.ppl-grp{
+.ppl-grp {
     width: 20rem;
 }
 
@@ -228,8 +188,6 @@ h2 {
 .contlist {
     display: flex;
     flex-direction: column;
-    padding: 2rem 0 2rem 4rem;
-    width: 50%;
 }
 
 .contlist-sted {
